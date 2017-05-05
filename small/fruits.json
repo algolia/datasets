@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Apricot",
+    "featured": false
+  },
+  {
+    "name": "Apple",
+    "featured": false
+  },
+  {
+    "name": "Almonds",
+    "featured": true
+  }
+]
