@@ -1,0 +1,20 @@
+[
+	{
+		"objectID": "myID1",
+		"name": "Mobile Search UX",
+		"author_name": "Bob",
+		"viewable_by": [1, 2, 3]
+	},
+	{
+		"objectID": "myID2",
+		"name": "Keeping mobile apps lightweight",
+		"author_name": "Henry",
+		"viewable_by": [3]
+	},
+	{
+		"objectID": "myID3",
+		"name": "Comparing Algolia and Elasticsearch",
+		"author_name": "Doug",
+		"viewable_by": [1, 2]
+	}
+]
