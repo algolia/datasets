@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://www.google.com/#q=start+wars",
+    "query_terms": ["star wars"]
+  },
+  {
+    "url": "https://www.google.com/#q=start+wars+actors",
+    "query_terms": ["george lucas", "luke skywalker"]
+  }
+]
