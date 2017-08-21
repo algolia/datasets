@@ -1,0 +1,66 @@
+{
+  "minWordSizefor1Typo": 3,
+  "minWordSizefor2Typos": 7,
+  "hitsPerPage": 20,
+  "maxValuesPerFacet": 10,
+  "version": 1,
+  "attributesToIndex": [
+    "unordered(title)",
+    "unordered(actors)",
+    "unordered(year)"
+  ],
+  "numericAttributesToIndex": null,
+  "attributesToRetrieve": null,
+  "allowTyposOnNumericTokens": true,
+  "ignorePlurals": false,
+  "advancedSyntax": false,
+  "removeStopWords": false,
+  "replaceSynonymsInHighlight": true,
+  "distinct": false,
+  "unretrievableAttributes": null,
+  "optionalWords": [
+    "the"
+  ],
+  "attributesForFaceting": [
+    "genre",
+    "rating",
+    "year",
+    "actor_facets"
+  ],
+  "attributesToSnippet": null,
+  "attributesToHighlight": null,
+  "paginationLimitedTo": 1000,
+  "attributeForDistinct": null,
+  "exactOnSingleWordQuery": "attribute",
+  "synonyms": [
+    [
+      "&",
+      "and"
+    ]
+  ],
+  "ranking": [
+    "proximity",
+    "attribute",
+    "typo",
+    "geo",
+    "words",
+    "filters",
+    "exact",
+    "custom"
+  ],
+  "customRanking": [
+    "desc(score)",
+    "desc(year)"
+  ],
+  "separatorsToIndex": "&",
+  "removeWordsIfNoResults": "none",
+  "queryType": "prefixAll",
+  "highlightPreTag": "<em>",
+  "highlightPostTag": "</em>",
+  "snippetEllipsisText": "",
+  "typoTolerance": "min",
+  "alternativesAsExact": [
+    "ignorePlurals",
+    "singleWordSynonym"
+  ]
+}
