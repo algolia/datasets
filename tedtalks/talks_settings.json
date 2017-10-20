@@ -1,0 +1,76 @@
+{
+  "minWordSizefor1Typo": 3,
+  "minWordSizefor2Typos": 7,
+  "hitsPerPage": 20,
+  "maxValuesPerFacet": 100,
+  "version": 1,
+  "attributesToIndex": [
+    "unordered(name)",
+    "speakers",
+    "event_name",
+    "tags"
+  ],
+  "numericAttributesToIndex": null,
+  "attributesToRetrieve": null,
+  "allowTyposOnNumericTokens": true,
+  "ignorePlurals": false,
+  "advancedSyntax": false,
+  "removeStopWords": false,
+  "replaceSynonymsInHighlight": true,
+  "distinct": true,
+  "unretrievableAttributes": null,
+  "optionalWords": null,
+  "slaves": [
+    "talks_date_asc",
+    "talks_viewed_count_desc",
+    "talks_popularity_score_desc",
+    "talks_beautiful_rating_desc",
+    "talks_courageous_rating_desc",
+    "talks_funny_rating_desc",
+    "talks_informative_rating_desc",
+    "talks_ingenious_rating_desc",
+    "talks_inspiring_rating_desc",
+    "talks_fascinating_rating_desc",
+    "talks_jaw_droping_rating_desc",
+    "talks_persuasive_rating_desc"
+  ],
+  "attributesForFaceting": [
+    "date",
+    "duration_range",
+    "searchable(tags)",
+    "searchable(speakers)",
+    "searchable(event_name)",
+    "searchable(languages)"
+  ],
+  "attributesToSnippet": [
+    "speakers:15"
+  ],
+  "attributesToHighlight": null,
+  "paginationLimitedTo": 1000,
+  "attributeForDistinct": "speakers",
+  "exactOnSingleWordQuery": "word",
+  "ranking": [
+    "typo",
+    "geo",
+    "words",
+    "filters",
+    "proximity",
+    "attribute",
+    "exact",
+    "custom"
+  ],
+  "customRanking": [
+    "desc(date)"
+  ],
+  "separatorsToIndex": "",
+  "removeWordsIfNoResults": "none",
+  "queryType": "prefixLast",
+  "highlightPreTag": "<em>",
+  "highlightPostTag": "</em>",
+  "snippetEllipsisText": "",
+  "typoTolerance": "true",
+  "alternativesAsExact": [
+    "ignorePlurals",
+    "singleWordSynonym"
+  ]
+}

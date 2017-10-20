@@ -1,13 +1,135 @@
 # Public datasets
 
-These datasets are gathered together for testing out your Algolia account. To use them there are two options.
+Welcome to the Algolia repository of datasets.
 
-## Dashboard
+The goal of this repository is to help you build something with Algolia, even
+if you don't have data of your own. Maybe you just want to try the API, or
+maybe you got inspired by some of those datasets to build something of your
+own.
 
-In the Algolia dashboard, you can upload one of theses JSON files without any setup.
+## What you'll find in this repository
 
-## Via code
+### Ready-made indices
 
-A JSON file can be loaded with a programming language of your choice, and then for performance it should be batched and be added to a index.
+Each directory of the repository holds `json` files that contains both the
+actual records and the index configuration. You can use them to push data to
+your own application on configure your settings through the API.
 
-More information can be found in [this guide](https://www.algolia.com/doc/guides/indexing/import-synchronize-data/) on the Algolia documentation.
+Most of them also come with credentials to directly query this data from our
+servers. In that case you won't need to push anything, but you will also be
+limited to querying as the API key we share only allows reading data, not
+updating it.
+
+### Links to publicly available raw datasets
+
+But there is much more data out there than what is in those files. That's what
+we've compiled a list of interesting potential datasources. They will each
+come in their own format (sometime a `zip` file to download, sometimes an API
+to query).
+
+They're here to give you ideas a of what you could build with Algolia. If you
+ever build something with any of those datasources, let us known, we'd love to
+see what you did. If you ever know of another good data source, we're open to
+Pull Requests as well :)
+
+#### Academic Papers
+
+http://academictorrents.com/
+
+15.49TB of research data available on torrent format
+
+#### Archive.org
+
+https://archive.org/
+
+Non-profit library of millions of free books, movies, software, music, and websites.
+
+#### Amazon
+
+https://aws.amazon.com/datasets/
+
+Datasets publicly hosted on AWS and available. Including population of Japan,
+Wikipedia page traffic, metadata about a million songs, social graph of Marvel
+Super-Heroes, Open StreetMap and much more.
+
+#### APIs
+
+Here is a Gist referencing curated APIs that would contain interesting data
+https://gist.github.com/soopa/8225112
+
+And a dedicated repo: https://github.com/toddmotto/public-apis
+
+#### CommonCrawl
+
+http://commoncrawl.org/
+
+7 years of crawled data on the web, million of pages and trillions of links
+between them. Sort of an open-source Google index
+
+#### Dungeon & Dragons Monsters
+
+https://github.com/pixelastic/monsters
+
+JSON list of most D&D monsters. Extracted from [this
+website][1]. The list is not accurate.
+
+#### Gallica
+
+http://gallica.bnf.fr/
+
+French National Library (BNF) online archives.
+Books, maps, press
+
+#### IMDB
+
+http://www.imdb.com/interfaces
+
+List of all actors, movies, shows, etc from IMDB.
+
+#### Marvel
+
+- https://github.com/pixelastic/marvel/tree/master/records
+- https://community.algolia.com/marvel-search/
+
+List of all super-heroes and super villains of the Marvel universe. Extracted
+from sources (Wikipedia, [Marvel API][2],
+[DBPedia][3] and aggregated in Algolia records.
+
+#### N-grams
+
+http://commondatastorage.googleapis.com/books/syntactic-ngrams/index.html
+
+List of n-grams extracted from the Google Books corpus. Not a regular dataset,
+but still worth noting.
+
+#### OpenStreetMap
+
+http://wiki.openstreetmap.org/wiki/Downloading_data
+
+Open-source alternative to Google Maps. Geolocated point of interestes, streets,
+etc.
+
+#### Project Gutemberg
+
+https://www.gutenberg.org/
+
+Public domain books, available as both HTML and ebooks. They do not all follow
+the same format, so custom parsing is needed.
+
+#### Vogue
+
+http://dh.library.yale.edu/projects/vogue/
+
+All issues of the Vogue magazine, from 1892 to 2016. Including covers and pages.
+About 6TB of data.
+
+#### Wikipedia
+
+https://dumps.wikimedia.org/
+
+Downloadable extracts of Wikipedia. In Wikitext, with metadata as embedded XML.
+
+
+[1]: http://monsterfinder.dndrunde.de/
+[2]: http://developer.marvel.com/
+[3]: http://wiki.dbpedia.org/)
