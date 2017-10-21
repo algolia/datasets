@@ -1,0 +1,52 @@
+{
+  "minWordSizefor1Typo": 3,
+  "minWordSizefor2Typos": 7,
+  "hitsPerPage": 20,
+  "maxValuesPerFacet": 100,
+  "version": 1,
+  "attributesToIndex": [
+    "unordered(name)",
+    "speakers"
+  ],
+  "numericAttributesToIndex": null,
+  "attributesToRetrieve": null,
+  "unretrievableAttributes": null,
+  "optionalWords": null,
+  "master": "talks",
+  "attributesForFaceting": [
+    "date",
+    "duration_range",
+    "searchable(tags)",
+    "searchable(speakers)",
+    "searchable(event_name)",
+    "searchable(languages)"
+  ],
+  "attributesToSnippet": null,
+  "attributesToHighlight": null,
+  "paginationLimitedTo": 1000,
+  "attributeForDistinct": null,
+  "exactOnSingleWordQuery": "word",
+  "ranking": [
+    "typo",
+    "geo",
+    "words",
+    "filters",
+    "proximity",
+    "attribute",
+    "exact",
+    "custom"
+  ],
+  "customRanking": [
+    "desc(informative_rating)"
+  ],
+  "separatorsToIndex": "",
+  "removeWordsIfNoResults": "none",
+  "queryType": "prefixLast",
+  "highlightPreTag": "<em>",
+  "highlightPostTag": "</em>",
+  "snippetEllipsisText": "",
+  "alternativesAsExact": [
+    "ignorePlurals",
+    "singleWordSynonym"
+  ]
+}
