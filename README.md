@@ -86,6 +86,12 @@ http://www.imdb.com/interfaces
 
 List of all actors, movies, shows, etc from IMDB.
 
+#### Kaggle
+
+https://www.kaggle.com/datasets
+
+Large list of datasets for machine learning
+
 #### Marvel
 
 - https://github.com/pixelastic/marvel/tree/master/records
