@@ -5,6 +5,22 @@ This dataset hold the name and geo-location of all main airports in the world.
 Each record contains a `.geoloc` key that you can use to try our [geo-search
 feature][1].
 
+## Schema
+
+```json
+{
+  "name": "Hartsfield Jackson Atlanta Intl",
+  "city": "Atlanta",
+  "country": "United States",
+  "iata_code": "ATL",
+  "_geoloc": {
+    "lat": 33.636719,
+    "lng": -84.428067
+  },
+  "links_count": 1826,
+}
+```
+
 ## Demo
 
 You can see an example of what could be built with this dataset
