@@ -66,13 +66,6 @@ http://commoncrawl.org/
 7 years of crawled data on the web, million of pages and trillions of links
 between them. Sort of an open-source Google index
 
-#### Dungeon & Dragons Monsters
-
-https://github.com/pixelastic/monsters
-
-JSON list of most D&D monsters. Extracted from [this
-website][1]. The list is not accurate.
-
 #### Gallica
 
 http://gallica.bnf.fr/
@@ -98,8 +91,8 @@ Large list of datasets for machine learning
 - https://community.algolia.com/marvel-search/
 
 List of all super-heroes and super villains of the Marvel universe. Extracted
-from sources (Wikipedia, [Marvel API][2],
-[DBPedia][3] and aggregated in Algolia records.
+from sources (Wikipedia, [Marvel API](http://developer.marvel.com/),
+[DBPedia](http://wiki.dbpedia.org/) and aggregated in Algolia records.
 
 #### N-grams
 
@@ -134,8 +127,3 @@ About 6TB of data.
 https://dumps.wikimedia.org/
 
 Downloadable extracts of Wikipedia. In Wikitext, with metadata as embedded XML.
-
-
-[1]: http://monsterfinder.dndrunde.de/
-[2]: http://developer.marvel.com/
-[3]: http://wiki.dbpedia.org/)
