@@ -90,8 +90,8 @@
     "score": 0
   },
   {
-    "name": "Warriors",
-    "location": "Golden State",
+    "name": "Golden State Warriors",
+    "location": "San Francisco",
     "logoUrl": "Warriors_Golden_State.gif",
     "score": 446.1
   },
@@ -268,12 +268,6 @@
     "location": "Seattle",
     "score": 0,
     "logoUrl": "cxe7hh6lwjtpdhcoyiuc064sp.gif"
-  },
-  {
-    "name": "Warriors",
-    "location": "San Francisco",
-    "score": 446.1,
-    "logoUrl": "5972.gif"
   },
   {
     "name": "Bombers",
