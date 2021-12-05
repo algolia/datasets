@@ -7886,8 +7886,8 @@
   {
     "name": "Praia International Airport",
     "city": "Praia",
-    "country": " Santiago Island",
-    "iata_code": "Cape Verde",
+    "country": "Santiago Island",
+    "iata_code": "RAI",
     "_geoloc": {
       "lat": 0.0,
       "lng": 14.9245
@@ -11666,8 +11666,8 @@
   {
     "name": "Robin Hood Doncaster Sheffield Airport",
     "city": "Doncaster",
-    "country": " Sheffield",
-    "iata_code": "United Kingdom",
+    "country": "Sheffield",
+    "iata_code": "DSA,
     "_geoloc": {
       "lat": 0.0,
       "lng": 53.474722
@@ -35738,8 +35738,8 @@
   {
     "name": "Sao Filipe Airport",
     "city": "Sao Filipe",
-    "country": " Fogo Island",
-    "iata_code": "Cape Verde",
+    "country": "Fogo Island",
+    "iata_code": "SFL",
     "_geoloc": {
       "lat": 0.0,
       "lng": 14.885
