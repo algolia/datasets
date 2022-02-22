@@ -4,6 +4,17 @@ This directory contains over 7,000 quotations from U.S Presidents.
 
 It was extracted from [Wikiquotes][1].
 
+## Schema
+
+```json
+{
+"president": # Pesident name
+"quote": # Full quote
+"image": # Image URL for presedential portrait
+"source": "wikiquote"
+}
+```
+
 ## Live demo
 
 You can see a live demo using this dataset generated from [the Algolia dashboard][2].
