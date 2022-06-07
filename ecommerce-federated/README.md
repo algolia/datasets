@@ -36,7 +36,7 @@ This index contains **frequently asked questions.**
 
 You can find the records in the [`faq.json` file](./faq.json).
 
-## Import to you Algolia app
+## Import to your Algolia app
 
 Please refer to the guide [Exporting and Importing Algolia Indices](https://www.algolia.com/doc/guides/sending-and-managing-data/manage-your-indices/how-to/export-an-algolia-index/) in order to learn how to import the data into your Algolia application.
 
