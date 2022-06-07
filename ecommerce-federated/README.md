@@ -1,51 +1,51 @@
 # Ecommerce Federated
 
-The files in this folder contain products (with query suggestions), articles, and FAQ records as you would see in a federated search experience.
+This dataset collection contains products (with [Query Suggestions](https://www.algolia.com/doc/guides/building-search-ui/ui-and-ux-patterns/query-suggestions/react/)), articles, and FAQ records as you would see in a federated search experience.
 
-## Live demo
-
-You can see a live demo of this dataset [here](https://codesandbox.io/s/github/algolia/autocomplete/tree/next/examples/two-column-layout).
+You can see a live demo using this dataset [here](https://codesandbox.io/s/github/algolia/autocomplete/tree/next/examples/two-column-layout) and learn how those dataset are put in motion in the ["Ecommerce federated guide"](https://www.algolia.com/doc/ui-libraries/autocomplete/guides/creating-an-advanced-ecommerce-experience/).
 
 ## Structure
 
 ### Products index
 
-This index contains **fashion products**.
+This index contains **fashion products.**
 
-You can find the records, settings and rules here:
+You can find the records and configuration (settings and [Rules](https://www.algolia.com/doc/guides/managing-results/rules/rules-overview/)) here:
 
 - [`products.json`](./products.json)
-- [`products_settings.json`](./products_settings.json)
-- [`products_rules.json`](./products_rules.json)
+- [`products_configuration.json`](./products_configuration.json)
 
-#### Product query suggestions index
+#### Query Suggestions index
 
-This index contains **query suggestions for products**.
+This index contains **Query Suggestions for products.**
 
-You can find the records and settings here:
+You can find the records and configuration here:
 
 - [`products_query_suggestions.json`](./products_query_suggestions.json)
-- [`products_query_suggestions_settings.json`](./products_query_suggestions_settings.json)
+- [`products_query_suggestions_configuration.json`](./products_query_suggestions_configuration.json)
 
 #### Articles index
 
-This index contains fake **articles** related to some product brands.
+This index contains **articles related to some product brands.**
 
 You can find the records in the [`articles.json` file](./articles.json).
 
 #### FAQ index
 
-This index contains fake **FAQ**.
+This index contains **frequently asked questions.**
 
 You can find the records in the [`faq.json` file](./faq.json).
 
+## Import to you Algolia app
+
+Please refer to the guide [Exporting and Importing Algolia Indices](https://www.algolia.com/doc/guides/sending-and-managing-data/manage-your-indices/how-to/export-an-algolia-index/) in order to learn how to import the data into your Algolia application.
+
 ## Credentials
 
-If you want to use the dataset directly, without pushing it your application,
-just use the following credentials:
+If you want to use the dataset directly without pushing it to your own application, you can use the following credentials:
 
-Application ID: `latency`  
-API Key: `6be0576ff61c053d5f9a3225e2a90f76`
+- Application ID: `latency`  
+- API key: `6be0576ff61c053d5f9a3225e2a90f76`
 
 Index names:
   - `autocomplete_demo_products`

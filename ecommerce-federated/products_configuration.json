@@ -1,0 +1,187 @@
+{
+  "settings": {
+    "minWordSizefor1Typo": 4,
+    "minWordSizefor2Typos": 8,
+    "hitsPerPage": 20,
+    "maxValuesPerFacet": 100,
+    "searchableAttributes": [
+      "unordered(name)",
+      "unordered(brand)",
+      "unordered(list_categories)",
+      "unordered(color.original_name)",
+      "unordered(product_type)",
+      "unordered(gender)",
+      "unordered(available_sizes)",
+      "unordered(description)",
+      "unordered(sku)"
+    ],
+    "numericAttributesToIndex": null,
+    "attributesToRetrieve": null,
+    "ignorePlurals": [
+      "en"
+    ],
+    "advancedSyntax": true,
+    "unretrievableAttributes": null,
+    "optionalWords": null,
+    "queryLanguages": [
+      "en"
+    ],
+    "attributesForFaceting": [
+      "available_sizes",
+      "searchable(brand)",
+      "searchable(category_page_id)",
+      "searchable(color.filter_group)",
+      "color.original_name",
+      "gender",
+      "searchable(hierarchical_categories)",
+      "searchable(hierarchical_categories.lvl0)",
+      "searchable(hierarchical_categories.lvl1)",
+      "searchable(hierarchical_categories.lvl2)",
+      "searchable(list_categories)",
+      "price.on_sales",
+      "price.value",
+      "product_type",
+      "reviews.rating"
+    ],
+    "attributesToSnippet": [
+      "description:10"
+    ],
+    "attributesToHighlight": [
+      "brand",
+      "list_categories",
+      "name"
+    ],
+    "paginationLimitedTo": 1000,
+    "attributeForDistinct": null,
+    "exactOnSingleWordQuery": "attribute",
+    "ranking": [
+      "typo",
+      "geo",
+      "words",
+      "filters",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+    ],
+    "customRanking": [
+      "desc(reviews.bayesian_avg)"
+    ],
+    "separatorsToIndex": "",
+    "removeWordsIfNoResults": "none",
+    "queryType": "prefixLast",
+    "highlightPreTag": "<em>",
+    "highlightPostTag": "</em>",
+    "snippetEllipsisText": "",
+    "typoTolerance": "strict",
+    "alternativesAsExact": [
+      "ignorePlurals",
+      "singleWordSynonym"
+    ],
+    "enablePersonalization": true,
+    "indexLanguages": [
+      "en"
+    ],
+    "renderingContent": {
+      "facetOrdering": {
+        "facets": {
+          "order": [
+            "hierarchical_categories.lvl0",
+            "brand",
+            "color.filter_group",
+            "available_sizes",
+            "price.value",
+            "reviews.rating"
+          ]
+        },
+        "values": {
+          "available_sizes": {
+            "sortRemainingBy": "count"
+          },
+          "brand": {
+            "sortRemainingBy": "count"
+          },
+          "color.filter_group": {
+            "sortRemainingBy": "count"
+          },
+          "hierarchical_categories.lvl0": {
+            "sortRemainingBy": "count"
+          },
+          "price.value": {
+            "sortRemainingBy": "count"
+          },
+          "reviews.rating": {
+            "sortRemainingBy": "count"
+          }
+        }
+      }
+    }
+  },
+  "rules": [
+    {
+      "_metadata": {
+        "lastUpdate": 1646854568
+      },
+      "conditions": [
+        {
+          "anchoring": "is",
+          "pattern": "",
+          "alternatives": false,
+          "context": "quickAccess"
+        }
+      ],
+      "consequence": {
+        "userData": {
+          "items": [
+            {
+              "href": "#",
+              "image": "https://res.cloudinary.com/hilnmyskv/image/upload/v1645453369/sales_banner_y1hsr8.jpg",
+              "subtitle": "up to 60% Off",
+              "template": "sales-banner",
+              "title": "Spring Sale"
+            },
+            {
+              "date": "Till March 25th",
+              "href": "#",
+              "image": "https://res.cloudinary.com/hilnmyskv/image/upload/v1645453422/sales_code_vuatep.jpg",
+              "subtitle": "with the code\nSALES_2131",
+              "template": "sales-code",
+              "title": "Sale on\nSneakers"
+            },
+            {
+              "href": "#",
+              "image": "https://res.cloudinary.com/hilnmyskv/image/upload/v1645453466/new_collection_nloeb6.jpg",
+              "subtitle": "spring / summer\n2022",
+              "template": "new-collection",
+              "title": "New\ncollection"
+            },
+            {
+              "href": "#",
+              "links": [
+                {
+                  "href": "#",
+                  "text": "Track my order"
+                },
+                {
+                  "href": "#",
+                  "text": "Delivery & Returns"
+                },
+                {
+                  "href": "#",
+                  "text": "FAQ"
+                }
+              ],
+              "template": "help",
+              "title": "how can\nwe help?"
+            }
+          ]
+        },
+        "filterPromotes": true
+      },
+      "enabled": true,
+      "description": "Autocomplete quick access on empty query state",
+      "objectID": "qr-1645439637066"
+    }
+  ],
+  "synonyms": []
+}
