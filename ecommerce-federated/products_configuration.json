@@ -78,7 +78,6 @@
       "ignorePlurals",
       "singleWordSynonym"
     ],
-    "enablePersonalization": true,
     "indexLanguages": [
       "en"
     ],
