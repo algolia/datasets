@@ -30,4 +30,4 @@ Read API Key: 7a291ee30130c6b303b301d04d270a2c
 
 ## CSS File
 
-You will see a css file named App.css. You will be asked to download the file and place it in the appropriate location for the front-end workshop. React Applications will keep the name App.css and Vanilla JS applications will renmae to syle.css. 
+You will see a css file named App.css. You will be asked to download the file and place it in the appropriate location for the front-end workshop. React Applications will keep the name App.css and Vanilla JS applications will rename it to styles.css. 
