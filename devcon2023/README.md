@@ -27,3 +27,7 @@ Read API Key: 544c9265d256129a6397d541860df1ae
 APP ID: QDDE6ECCK1
 Admin API Key: 5a57f4724517e284a2bc3a588a1ef71d
 Read API Key: 7a291ee30130c6b303b301d04d270a2c
+
+## CSS File
+
+You will see a css file named App.css. You will be asked to download the file and place it in the appropriate location for the front-end workshop. React Applications will keep the name App.css and Vanilla JS applications will renmae to syle.css. 
