@@ -31,3 +31,61 @@ Read API Key: 7a291ee30130c6b303b301d04d270a2c
 ## CSS File
 
 You will see a css file named App.css. You will be asked to download the file and place it in the appropriate location for the front-end workshop. React Applications will keep the name App.css and Vanilla JS applications will rename it to styles.css. 
+
+## Snippets
+
+During the UI live coding sessions, your presenter may suggest you copy paste the following bits of boilerplate to avoid having to manually type them:
+
+Basic HTML page boilerplate
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InstantSearch Demo</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+```
+
+Markup template to work with the provided CSS:
+```HTML
+<div class="header">
+  <div class="header-wrapper">
+    <div class="header-nav">
+      <h3>Home</h3>
+    </div>
+    <!-- Searchbox goes here -->
+  </div>
+</div>
+<div class="container">
+  <div>
+    <!-- Refinementlist goes here -->
+  </div>
+  <div>
+    <!-- Hits go here -->
+    <!-- Pagination goes here -->
+  </div>
+</div>
+```
+
+Basic (Vanilla JS) hit template:
+```JS
+<div class="items">
+  <img src="https://image.tmdb.org/t/p/w185${hit.poster}" alt=${hit.title} />
+
+  <div class="items-info">
+    <div class="items-info--title">
+      <h3>
+        ${hit.title}
+      </h3>
+    </div>
+    <div className="items-info--genres">
+      <span className="genre-title">${hit.genres[0]} - ${hit.vote_average}</span>
+    </div>
+  </div>
+</div>
+```
