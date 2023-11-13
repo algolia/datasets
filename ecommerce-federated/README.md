@@ -19,7 +19,7 @@ You can find the records and configuration (settings and [Rules](https://www.alg
 
 <details>
   <summary>Product schema (click to expand)
-  ```json
+```json
 {
   "available_sizes": [
     "one size"
@@ -144,8 +144,7 @@ You can find the records and configuration (settings and [Rules](https://www.alg
     }
   ]
 }
-
-  ```
+```
 </details>
 
 ### Query Suggestions index (713 records)
@@ -197,7 +196,7 @@ You can find the records and configuration here:
   "popularity": 0,
   "query": "multi altea women"
 }
-  ```
+```
 </details>
 
 ### Articles index (99 records)
