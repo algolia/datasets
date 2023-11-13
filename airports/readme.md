@@ -1,6 +1,6 @@
 # Airports (3282 records)
 
-This dataset hold the name and geo-location of the main airports in the world.
+This dataset hold the name and geo-location of all main airports in the world.
 
 Each record contains a `.geoloc` key that you can use to try our [geo-search
 feature][1].
