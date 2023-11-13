@@ -115,6 +115,14 @@ https://www.gutenberg.org/
 Public domain books, available as both HTML and ebooks. They do not all follow
 the same format, so custom parsing is needed.
 
+#### Photography
+
+https://github.com/pixelastic/landscapes-data/tree/master/data/earthporn
+
+All landscape photography published on
+[r/earthporn](https://www.reddit.com/r/earthporn) up until Dec 12th, 2022.
+Includes popularity and LQIP (low quality image placeholder).
+
 #### Vogue
 
 http://dh.library.yale.edu/projects/vogue/
