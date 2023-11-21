@@ -52,6 +52,19 @@ Datasets publicly hosted on AWS and available. Including population of Japan,
 Wikipedia page traffic, metadata about a million songs, social graph of Marvel
 Super-Heroes, Open StreetMap and much more.
 
+#### Awesome JSON Datasets
+
+https://github.com/jdorfman/awesome-json-datasets
+
+A curated list of awesome JSON datasets that don't require authentication. It
+has a lot of choice, from food to gaming to quotes. Some links may be outdated.
+
+#### Awesome Public Datasets
+
+https://github.com/awesomedata/awesome-public-datasets
+
+Another extensive list of links to various datasets and APIs.
+
 #### APIs
 
 Here is a Gist referencing curated APIs that would contain interesting data
@@ -64,7 +77,7 @@ And a dedicated repo: https://github.com/toddmotto/public-apis
 http://commoncrawl.org/
 
 7 years of crawled data on the web, million of pages and trillions of links
-between them. Sort of an open-source Google index
+between them. Sort of an open source Google index
 
 #### Gallica
 
@@ -105,7 +118,7 @@ but still worth noting.
 
 http://wiki.openstreetmap.org/wiki/Downloading_data
 
-Open-source alternative to Google Maps. Geolocated point of interestes, streets,
+Open source alternative to Google Maps. Geolocated point of interestes, streets,
 etc.
 
 #### Project Gutemberg
@@ -122,6 +135,16 @@ https://github.com/pixelastic/landscapes-data/tree/master/data/earthporn
 All landscape photography published on
 [r/earthporn](https://www.reddit.com/r/earthporn) up until Dec 12th, 2022.
 Includes popularity and LQIP (low quality image placeholder).
+
+#### Public APIs
+
+https://github.com/public-apis-dev/public-apis
+https://publicapis.dev/
+
+A collaborative list of public APIs for developers. Be careful not to use the
+deprecated [public-apis/public-apis](https://github.com/public-apis/public-apis)
+repository (see [this issue for details](https://github.com/public-apis/public-apis/issues/3104))
+
 
 #### Vogue
 
