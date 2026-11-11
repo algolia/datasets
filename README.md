@@ -72,6 +72,12 @@ https://gist.github.com/soopa/8225112
 
 And a dedicated repo: https://github.com/toddmotto/public-apis
 
+#### Datacircle
+
+https://api.datacircle.dev/v1 (site: https://datacircle.dev)
+
+Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.
+
 #### CommonCrawl
 
 http://commoncrawl.org/
